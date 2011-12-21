@@ -1,0 +1,50 @@
+26-12 lab1
+30-12 lab2
+13-01 lab3
+
+comentarios %linea
+%{ }% bloque
+~ negacion
+~= comparacion
+
+for cont=inicial_cambio:fin
+
+PARA MATRICES
+
+name = [v1 v2 v3 ...]
+
+name2 = [v1;v2;v3;...]
+
+name3 = name'
+
+//para vectores muy largos
+
+name = inicio:incremento:final
+
+-----
+
+zeros(m,n) = crea una matriz de ceros con la memoria contigua
+para acceder a un elemento de la matriz
+
+name(i,j)
+
+name(2,:) = de vuelve todos los elementos de la fila 2
+
+name(2:k:L) = los valores de la fila 2 entre el intervalo k,L
+
+--------
+
+para crear graficos
+
+plot(a,b) para un grafico b v/s a
+
+xlabel(string)
+ylabel(string)
+title(string)
+grid()
+
+---------
+
+para crear una funcion
+
+function [salida] = nombre(entrada)
