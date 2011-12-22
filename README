@@ -1,1 +1,22 @@
 Laboratorio de Estructuras Discretas en Matlab
+-Entrega 30 Diciembre
+
+Caracteristicas:
+
+1.- El tiempo es discreto
+2.- Solo existe 1 tipo de producto en la empresa
+3.- Las constantes son elegidas por nosotros
+
+Constantes:
+
+- o(0,0) = 90
+- Nosotros fijamos m(0) y m(1)
+- Se debe decidir si se trabaja con D(t) u o(t), 
+  la que no se elije se mantiene como constante
+- En la ecuación 2) o(k) es constante
+
+Preguntas:
+
+1) D(t) debe cambiar
+2) o(k) debe cambiar
+3) Kd y Kf deben cambiar por funciones sinusoidales
