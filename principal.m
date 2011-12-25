@@ -1,7 +1,7 @@
-function [] = m(t)
+function [] = principal(t)
 Kd=1;
 Kf=1;
 t = t + 2;
 
-m(t+1) -Kd*m(t-1) + KdD(t)+Kf(t,0)
+principal(t+1) -Kd*principal(t-1) + KdD(t)+Kf(t,0)
 
