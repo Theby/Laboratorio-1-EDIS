@@ -1,10 +1,9 @@
 function retorno = o_cero(t)
 a = 0.5; %debe ser una constante entre 0 y 1
 o_cero_cero=90; % es o(0,0)
-o_k=1; %cantidad de elementos ordenados por los clientes. constante?
+o_k=100; %cantidad de elementos ordenados por los clientes. constante?
 
-%{
-RECURSIVA:
+%RECURSIVA:
 if(t==0)
 	res = 1; %valor final o(0,0)
 else
