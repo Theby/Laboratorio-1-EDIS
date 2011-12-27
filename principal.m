@@ -5,7 +5,7 @@ function retorno = principal(t, valores)
 %valores(2) => valor del tiempo 3
 
 
-Kd=1; %constante a fijar
+Kd=0.5; %constante a fijar
 Kf=1; %constante a fijar
 Dt=1; %nivel desceado del inventario, trabajamos  con o(t)?
 t1=1; %retardo de los empleados flojos e ineficientes <.<
