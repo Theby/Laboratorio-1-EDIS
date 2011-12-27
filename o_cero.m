@@ -4,11 +4,11 @@ o_cero_cero=90; % es o(0,0)
 o_k=100; %cantidad de elementos ordenados por los clientes. constante?
 
 %RECURSIVA:
-if(t==0)
-	res = 1; %valor final o(0,0)
-else
-	res = (1-a)*o_cero(t-1)+a*o_cero(t-1);
-end%} 
+%if(t==0)
+%	res = 1; %valor final o(0,0)
+%else
+	%res = (1-a)*o_cero(t-1)+a*o_cero(t-1);
+%end%} 
 
 %ITERATIVA
 retorno=o_cero_cero*(1-a)^t;

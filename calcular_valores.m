@@ -2,6 +2,6 @@
 
 function retorno_matriz = calcular_valores()
 retorno_matriz=[];
-for t=2:1:15
+for t=2:1:60
 	retorno_matriz=cat(2, retorno_matriz, [principal(t, retorno_matriz)]);
 end
