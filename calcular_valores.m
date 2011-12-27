@@ -5,3 +5,4 @@ retorno_matriz=[];
 for t=2:1:60
 	retorno_matriz=cat(2, retorno_matriz, [principal(t, retorno_matriz)]);
 end
+retorno_matriz=cat(2, [1], retorno_matriz); %agregamos el 1 al inicio
