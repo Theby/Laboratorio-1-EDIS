@@ -1,16 +1,22 @@
-Para la pregunta 1 se agrego un if en la funcion principal para que modificara
+Para la pregunta 1 se agrego un if en la función principal para que modificara
 el valor de Dt=1 por Dt=50 en el tiempo t=30.
 
-En el grafico se puede ver como la funcion en t=30 pega un salto para luego
-estavilizarse en aprox. t=40
+En el gráfico se puede ver como la función en t=30 pega un salto para luego
+estabilizarse en aprox. t=40
 
 
-En la misma funcion se puso tambien con Dt=150 en t=30 quedando tambien un
-grafico que logra estavilizarse en rapidamente en t=41
+En la misma función se puso también con Dt=150 en t=30 quedando también un
+gráfico que logra estabilizarse en rápidamente en t=41
 
-Finalmente se grafico un caso extremo con Dt=550 en t=30
+Finalmente se gráfico un caso extremo con Dt=550 en t=30
 
-Graficos: http://imgur.com/a/j6Yt5
+Gráficos: http://imgur.com/a/j6Yt5
+
+Posible Explicación: Como cambiamos el inventario desecado desde 1 a 50 en el
+caso del primer gráfico. Como el encargado del inventario necesita recuperar
+terreno, aumenta la producción mas de lo que debería formándose la curva que se
+puede ver en la cima del gráfico pero luego tratando de estabilizar el
+inventario demorándose aproximadamente 10 t en hacerlo
 
 
 function retorno = principal(t, valores)
