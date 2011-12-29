@@ -13,10 +13,13 @@ t1=1; %retardo de los empleados flojos e ineficientes <.<
 if t==1 || t==0
 	retorno=1;
 else
+	
+
 	%antes que hacer cualquier calculo vemos si ya tenemos calculado el t
 	if(length(valores)>=t-1)
 		retorno=valores(t-1);
 	else
+
 		retorno=principal(t-1, valores)-Kd*principal(t-1-t1, valores)+Kd*Dt+Kf*o_cero(t-1);
 	end
 end
