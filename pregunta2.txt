@@ -1,0 +1,39 @@
+Segun el foro de edis: "en la preg 2 tienen que cambiar o(k)".
+
+Efectivamente, un cambio en o(k) implica un cambio en la demanda de productos
+por parte de los consumidores. Hacemos el cambio en t=30 con o(k)=250 y se puede
+observar en el grafico como se demota un t=1 en reaccionar frente al cambio,
+esto es el retraso del encargado de ventas flojo. Una vez que se reacciona ante
+el cambio de demanda se puede observar el mismo fenomeno visto cuando se cambia
+Kd en la pregunta 1, osea una exagerada reaccion ante el cambio y luego una
+estavilizacion que en este caso demora aproximadamente t=17
+
+
+Para el caso de o(k)=25 ocurre lo contrario, se espera a que el inventario se
+agote para volver a empezar la produccion observandose nuevamente el retraso
+producido por el encargado de ventas flojo de t=1 estavilizacion que en este
+caso demora t=20.
+
+Graficos: https://imgur.com/a/ZNnsp
+
+
+
+FUNCION UTILIZADA
+
+
+function retorno = o_cero(t)
+a = 0.5; %debe ser una constante entre 0 y 1
+o_cero_cero=90; % es o(0,0)
+o_k=100; %cantidad de elementos ordenados por los clientes. constante?
+
+
+if(t>30)
+	o_k=25;
+end
+
+
+retorno=o_cero_cero*(1-a)^t;
+
+for k=0:1:(t-1) %inicio:incremento:fin
+	retorno=retorno + o_k*(1-a)^(t-1-k);
+end
