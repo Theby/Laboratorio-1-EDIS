@@ -1,0 +1,19 @@
+Como caso extra a analizar veamos que pasa si le damos una advertencia al
+empleado flojo y ahora es eficiente en su trabajo (t1=0) y cambiamos la demanda
+de productos en t=30 con o(k)=250
+
+
+Se puede observar en el grafico que al no tener el retardo del empleado el nivel
+del inventario racciona como es debido, osea agrega justo lo necesario para
+lograr la estavilizacion desceada.
+
+Si se aplica la misma funcion seno que en la pregunta 3 se puede ver que para
+t1=0 la funcion es mas estable, es decir, tiende a ser mas recta que en grafico
+formado con t1=1 en la pregunta 3
+
+
+FUNCIONES
+Las mismas de o_cero que en la pregunta 2 y 3, y en principal se cambio t1=1 =>
+t1=0
+
+
