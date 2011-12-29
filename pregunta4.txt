@@ -12,6 +12,9 @@ t1=0 la funcion es mas estable, es decir, tiende a ser mas recta que en grafico
 formado con t1=1 en la pregunta 3
 
 
+Graficos: https://imgur.com/a/tPObD
+
+
 FUNCIONES
 Las mismas de o_cero que en la pregunta 2 y 3, y en principal se cambio t1=1 =>
 t1=0
