@@ -1,5 +1,5 @@
 Laboratorio de Estructuras Discretas en Matlab
--Entrega 30 Diciembre
+-Entrega 30 Diciembre 2011
 
 Caracteristicas:
 
@@ -13,15 +13,15 @@ Constantes:
 - Nosotros fijamos m(0) y m(1)
 - Se debe decidir si se trabaja con D(t) u o(t), 
   la que no se elije se mantiene como constante
-- En la ecuación 2) o(k) es constante = 100 cte [visto en el foro]
-- tl en la guía es t1 (te sub 1) que junto a t0 valen un tiempo, es decir 1
-- o(t) es lo mismo que o(t,0) que es la ec (2) de la guía [visto en el foro]
+- En la ecuaciï¿½n 2) o(k) es constante = 100 cte [visto en el foro]
+- tl en la guï¿½a es t1 (te sub 1) que junto a t0 valen un tiempo, es decir 1
+- o(t) es lo mismo que o(t,0) que es la ec (2) de la guï¿½a [visto en el foro]
 
 
 Desarrollo
 
 - Guardar cada resultado m(t) en un vector para despues acceder a ellos cuando sea necesario
-  de esta forma se elimina la recursión [propuesto en el foro]
+  de esta forma se elimina la recursiï¿½n [propuesto en el foro]
 
 Preguntas:
 
